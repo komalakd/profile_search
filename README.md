@@ -1,15 +1,15 @@
 # profile_search
 Vanilla JS exercise
 
-##Features
+## Features
 - Username autocompletion
 - Async search
 - Mobile layout support
 
-##Dependancies
+## Dependancies
 - "express": "^4.16.3"
 
-##Project structure
+## Project structure
 ```
 css
 ├── index.css
@@ -23,7 +23,7 @@ users.json
 README.md
 ```
 
-##Technologies used
+## Technologies used
 - Node Express
 - Vanilla JS
 - Sass

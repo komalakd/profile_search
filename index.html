@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>profile search</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="users.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="content">
+        <h1>profile search</h1>
+        <div class="search">
+            <input type="text" name="person_name" id="person_name" placeholder="username in here.">
+        </div>
+        <div id="results" class="results hidden"></div>
+        <div id="no_results" class="no_results hidden">Yikes!</div>
+        <div id="profile" class="profile hidden">Yikes!</div>
+    </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            App.Controller.ProfileSearch = new App.Module.Search( 'person_name', 'results', 'no_results', 'profile' );
+        };
+    </script>
+</body>
+</html>

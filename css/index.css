@@ -1,0 +1,43 @@
+body {
+  background-color: #0088ff;
+  font-family: sans-serif;
+  min-width: 320px;
+}
+
+.content {
+  margin: 20px;
+}
+.content h1 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+.content .hidden {
+  display: none;
+}
+.content .search input {
+  width: 100%;
+  font-size: 1em;
+}
+.content .results, .content .no_results {
+  margin-top: 10px;
+}
+.content .results ul {
+  list-style-type: none;
+}
+.content .results ul li {
+  cursor: pointer;
+}
+.content .results ul li:hover {
+  color: white;
+}
+.content .profile {
+  margin-top: 20px;
+}
+.content .profile .field_data {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=index.css.map */
